@@ -1,5 +1,11 @@
 /* Reset some default styles */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body,
 h1,
 h2,
@@ -15,7 +21,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 section {
@@ -34,11 +40,10 @@ img {
 }
 
 .project-card img {
-    max-width: unset;
+    max-width: 90%;
     height: 200px !important;
     object-fit: cover;
     border-radius: 10px;
-    margin-right: 20px;
 }
 
 .project-info h3 {
